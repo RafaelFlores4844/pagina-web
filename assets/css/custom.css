@@ -1,0 +1,1387 @@
+.navbar-nav .nav-item .nav-link {
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    padding-bottom: 0; /* Reduce el espacio interno inferior */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0; /* Elimina el margen inferior del contenedor del menú */
+    padding-bottom: 0; /* Reduce el espacio interno inferior del contenedor */
+    margin-top: 0;
+    padding-top: 0;
+    position: sticky; /* Fija el menú en la parte superior */
+    top: 50px; /* Asegura que esté pegado al borde superior */
+    z-index: 1030 !important;
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+}
+
+.text-light{
+padding-top: 9px;
+position: sticky; /* Fija el menú en la parte superior */
+    top: 0; /* Asegura que esté pegado al borde superior */
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    z-index: 1030; 
+
+}
+   
+#templatemo_nav_top {
+    display: flex !important; 
+    position: sticky; /* Fija el menú superior */
+    top: 0; /* Asegura que esté pegado al borde superior */
+    z-index: 900; /* Menor prioridad que el menú principal */
+    background-color:  #0d1b2a   !important; ; /* Asegura que tenga un fondo visible */
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 5px 0; /* Reduce el espacio interno del menú */
+    margin-bottom: 0px;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    justify-content: flex-end;
+     
+}
+
+#templatemo_nav_top.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.navbar {
+    margin-bottom: 0; /* Elimina el margen inferior del contenedor del menú */
+    padding-bottom: 0; /* Reduce el espacio interno inferior del contenedor */
+    margin-top: 0;
+    padding-top: 0;
+    position: sticky; /* Fija el menú en la parte superior */
+    top: 50px; /* Ajusta este valor para que quede justo debajo de la barra superior */
+    z-index: 1020; /* Asegura que esté por encima de otros elementos */
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    background-color:   #460202 !important;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    padding-bottom: 0; /* Reduce el espacio interno inferior */
+    margin-top: 0;
+    padding-top: 0;
+    color: #fff !important; 
+}
+
+.text-light{
+    padding-top: 9px;
+    position: sticky; /* Fija el menú en la parte superior */
+    top: 0; /* Asegura que esté pegado al borde superior */
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    z-index: 1030;
+}
+
+
+#templatemo_nav_top a {
+    font-size: 2.9rem; /* Aumenta el tamaño de los íconos */
+    margin-right: 15px; /* Espaciado entre los íconos */
+    line-height: 1; /* Ajusta la alineación vertical */
+    color: #fff;
+    
+    /* Asegura que el color sea visible */
+}
+
+/* Efecto hover para el ícono de Facebook en el menú superior */
+#templatemo_nav_top a:nth-child(1):hover {
+    color: #1877F2 !important; /* Azul de Facebook */
+    transition: color 0.3s ease-in-out;
+}
+
+#templatemo_nav_top a:nth-child(2) {
+    font-size: 2.5rem !important; /* Cambia el tamaño del ícono */
+    margin-right: 20px; /* Ajusta el espacio entre los íconos */
+    line-height: 1; /* Centra el ícono verticalmente */
+}
+
+
+/* Efecto hover para el ícono de Instagram en el menú superior */
+#templatemo_nav_top a:nth-child(2):hover {
+    color: #C13584 !important; /* Morado de Instagram */
+    transition: color 0.3s ease-in-out;
+}
+
+
+#templatemo_nav_top .w-100 {
+    display: flex;
+    align-items: center; /* Centra verticalmente los íconos */
+    justify-content: flex-end; /* Alinea los íconos a la derecha */
+    position: relative;
+    top: -4px; /* Mueve los íconos hacia arriba */
+
+    font-size: 2.7rem !important; /* Aumenta el tamaño de los íconos y usa !important si es necesario */
+    margin-right: 15px; /* Espaciado entre los íconos */
+    line-height: 1; /* Ajusta la alineación vertical */
+    color: #fff; 
+
+
+}
+
+
+#tempaltemo_footer {
+    position: relative; /* Asegura que el footer tenga un contexto de apilamiento */
+    z-index: 2000; /* Asegura que el footer esté por encima del menú */
+    background-color: #343a40; /* Fondo del footer */
+}
+
+/* Oculta el menú de los íconos en pantallas pequeñas */
+#templatemo_nav_top {
+    display: none;
+}
+
+
+
+/* Ajusta el menú principal en pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+        top: 0; /* Sube el menú principal para ocupar el espacio */
+    }
+}
+
+
+
+@media (min-width: 769px) {
+    .navbar {
+        top: 50px; /* Ajusta este valor para que quede debajo del menú de los íconos */
+    }
+}
+
+
+    .navbar {
+        top: 0 !important;  /* Sube el menú principal para ocupar el espacio */
+    }
+
+
+/* Ajusta el menú principal en pantallas medianas y grandes */
+@media (min-width: 577px) {
+    .navbar {
+        top: 50ppx; /* Ajusta este valor para que quede debajo del menú de los íconos */
+    }
+}
+
+@media (max-width: 768px) {
+    #templatemo_nav_top {
+        display: flex !important; /* Asegura que el menú de íconos sea visible */
+        position: sticky; /* Mantiene el menú fijo en la parte superior */
+        top: 0;
+        z-index: 1030;
+        background-color: #343a40;
+    } 
+
+    .navbar {
+        top: 50px; /* Mantén el menú principal debajo del menú de íconos */
+    }
+}
+
+@media (max-width: 768px) {
+    #templatemo_nav_top {
+        display: none  !important; /* Oculta el menú de íconos en resoluciones pequeñas */
+    }
+
+    .navbar {
+        top: 0 !important ; /* Sube el menú principal para ocupar el espacio */
+    }
+}
+
+/* Estilo para el enlace activo del menú */
+.navbar-nav .nav-item .nav-link.active {
+    color: #fff !important; /* Cambia el color del texto a blanco */
+    background-color: #062e10 !important; /* Color verde más intenso */
+    border-radius: 5px; /* Opcional: redondea las esquinas */
+    padding: 5px 10px; /* Opcional: agrega un poco de espacio interno */
+}
+
+
+/* ...existing code... */
+
+/* Asegura que el enlace activo sea visible en todos los fondos */
+.nav-link.active,
+.navbar-nav .nav-item .nav-link.active {
+     
+    background-color: #e6e6e6 !important; /* Opcional: fondo claro para resaltar */
+    border-radius: 5px;
+}
+
+
+
+
+/* Cuando el menú tiene la clase .scrolled, los enlaces son blancos */
+.navanimation.scrolled .nav-link,
+.navanimation.scrolled .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+/* El enlace activo también es blanco */
+.navanimation.scrolled .nav-link.active,
+.navanimation.scrolled .navbar-nav .nav-item .nav-link.active {
+    color: #fff !important;
+  /* O el color que prefieras para resaltar */
+    border-radius: 5px;
+}
+
+
+
+
+/* Menú de redes sociales en shop-single.html */
+.shop-single-page #templatemo_nav_top {
+    position: sticky !important; /* Fija el menú al hacer scroll */
+    top: 0px !important; /* Siempre en la parte superior */
+    z-index: 1020 !important; /* Asegura que esté debajo del menú principal */
+    background-color: #0d1b2a !important; /* Fondo oscuro */
+    width: 100% !important;
+    padding: 9.4px 0 !important;
+     color: #fff !important; 
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important; /* Línea opcional para consistencia */
+}
+/* Menú de navegación principal en shop-single.html */
+.shop-single-page .navbar {
+    position: sticky !important; /* Fija el menú al hacer scroll */
+    top: 0px !important; /* Debajo del menú de redes sociales */
+    z-index: 1040 !important; /* Asegura que esté encima del menú de redes sociales */
+    background-color: #fff !important; /* Fondo blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important; /* Sombra opcional */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .shop-single-page #templatemo_nav_top {
+        display: none !important; /* Oculta el menú de redes sociales */
+    }
+
+    .shop-single-page .navbar {
+        top: 0 !important; /* Asegura que el menú principal ocupe el espacio */
+    }
+}
+.shop-single-page #templatemo_nav_top a {
+   /* Ajusta el tamaño de los íconos */
+     /* Ajusta el espaciado entre los íconos */
+    line-height: 1; /* Asegura la alineación vertical */
+}
+
+footer .h2 {
+    position: static !important; /* Asegura que el título no sea sticky ni fixed */
+}
+/* Estilo inicial del menú de navegación */
+#templatemo_main_nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%; /* Asegura que el menú abarque todo el ancho */
+    background-color: transparent; /* Fondo inicial transparente */
+    transition: background-color 0.3s ease-in-out;
+    padding: 0; /* Elimina cualquier padding que pueda limitar el tamaño */
+    margin: 0; /* Elimina márgenes */
+}
+
+/* Clase que se aplica al hacer scroll */
+#templatemo_main_nav.scrolled {
+    background-color: #061568 !important; /* Mismo color que el menú de redes sociales */
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
+
+/* Asegúrate de que los elementos internos no sobrescriban el fondo */
+#templatemo_main_nav .navbar {
+    background-color: inherit; /* Hereda el color del contenedor principal */
+    box-shadow: none; /* Elimina sombras si es necesario */
+}
+
+/* Estilo inicial del menú de navegación */
+.navanimation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%; /* Asegura que abarque todo el ancho */
+    background-color: transparent; /* Fondo inicial transparente */
+    transition: background-color 0.3s ease-in-out;
+    padding: 0; /* Elimina cualquier padding que pueda limitar el tamaño */
+    margin: 0; /* Elimina márgenes */
+}
+
+/* Clase que se aplica al hacer scroll */
+.navanimation.scrolled {
+    background-color: #212934; /* Mismo color que el menú de redes sociales */
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
+
+/* Asegúrate de que los elementos internos no sobrescriban el fondo */
+.navanimation .navbar-brand,
+.navanimation .nav-link {
+    background-color: inherit; /* Hereda el color del contenedor principal */
+}
+    
+/* ...existing code... */
+
+/* ...existing code... */
+/* Clase que se aplica al hacer scroll */
+.navanimation.scrolled {
+    background-color: #212934 !important; /* Fondo oscuro */
+    color: #fff !important; /* Cambia el color del texto a blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+.navanimation.scrolled .nav-link {
+   
+    color: #ffffff !important; 
+    transition: color 0.3s ease-in-out;               /* Cambia el color de los enlaces a blanco */
+}
+
+
+/* Estilo para los íconos de redes sociales en el footer */
+/* Hover effect for Facebook */
+#tempaltemo_footer ul.footer-icons li:nth-child(1):hover {
+    background-color: #1877F2; /* Azul de Facebook */
+    transition: .5s;
+  }
+  #tempaltemo_footer ul.footer-icons li:nth-child(1):hover i {
+    color: #FFFFFF; /* Blanco */
+    transition: .5s;
+  }
+  
+  /* Hover effect for Instagram */
+  #tempaltemo_footer ul.footer-icons li:nth-child(2):hover {
+    background-color: #C13584; /* Morado de Instagram */
+    transition: .5s;
+  }
+  #tempaltemo_footer ul.footer-icons li:nth-child(2):hover i {
+    color: #FFFFFF; /* Blanco */
+    transition: .5s;
+  }
+
+  #tempaltemo_footer ul.footer-icons li:nth-child(1) i {
+    font-size: 2rem !important; /* Aumenta el tamaño del ícono y usa !important */
+}
+#tempaltemo_footer ul.footer-icons li:nth-child(2) i {
+    font-size: 2.2rem !important; /* Aumenta el tamaño del ícono y usa !important */
+}
+
+  #tempaltemo_footer ul.footer-icons li:nth-child(1) {
+    width: 60px; /* Aumenta el ancho del botón */
+    height: 60px; /* Aumenta la altura del botón */
+    line-height: 60px; /* Centra el ícono verticalmente */
+     /* Aumenta el tamaño del ícono */
+}
+
+#tempaltemo_footer ul.footer-icons li:nth-child(2) {
+    width: 60px; /* Aumenta el ancho del botón */
+    height: 60px; /* Aumenta la altura del botón */
+    line-height: 60px; /* Centra el ícono verticalmente */
+     /* Aumenta el tamaño del ícono */
+}
+
+
+.nav-link.active {
+   color: #000;  /* Cambia el color del texto a verde */
+    background-color: transparent !important; /* Asegúrate de que no haya fondo */
+    border: none !important; /* Elimina cualquier borde */
+    box-shadow: none !important; /* Elimina cualquier sombra */
+    font-weight: normal; /* Ajusta el peso del texto si es necesario */
+    text-decoration: none;
+}
+
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    background-color: transparent !important; /* Elimina cualquier fondo */
+    border: none !important; /* Elimina cualquier borde */
+    box-shadow: none !important; /* Elimina cualquier sombra */
+    color: inherit !important; /* Mantén el color actual */
+}
+
+
+.navbar-nav .nav-item .nav-link.active {
+     /* Asegúrate de que el color verde se aplique */
+    background-color: transparent !important; /* Elimina cualquier fondo */
+    border: none !important; /* Elimina cualquier borde */
+}
+
+.nav-link {
+    color: #000;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+}
+#templatemo_nav_top {
+    height: 30px !important; /* Reduce la altura de la barra */
+    padding: 5px 0 !important; /* Ajusta el espacio interno superior e inferior */
+    line-height: 30px !important; /* Centra verticalmente los íconos */
+}
+
+
+
+
+/* Asegúrate de que hover funcione incluso si el enlace tiene la clase active */
+.nav-link.active:hover {
+    color: #11019c !important; /* Aplica el color de hover al enlace activo */
+     /* Opcional: subrayado */
+}
+
+/* Ajusta los labels para alinearlos con los placeholders */
+form label {
+    display: block; /* Asegura que los labels estén en bloque */
+    margin-bottom: 5px; /* Espaciado entre el label y el input */
+    font-size: 1rem; /* Ajusta el tamaño del texto si es necesario */
+    color: #333; /* Color del texto */
+    padding-left: 12px; 
+   /* Ajusta el padding para alinearlo con el input */
+}
+/* Ajusta los inputs para que coincidan con los labels */
+form input,
+form textarea {
+    padding: 10px; /* Asegúrate de que el padding sea consistente */
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+/* Estilo específico para el formulario de login */
+#login-form label {
+    padding-left: 10px;
+}
+
+#login-form input,
+#login-form textarea {
+    padding: 10px;
+}
+/* Ajusta el tamaño y centra el input de Phone Number */
+#login-form input#phone,
+form input#phone {
+    width: 50%; /* Ajusta el ancho al mismo tamaño que el input de Name */
+    margin: 0 auto; /* Centra el input horizontalmente */
+    display: block; /* Asegura que el input sea un bloque para que el margen funcione */
+}
+
+/* Estilo para centrar y dar fondo al formulario de login */
+
+#login-form {
+    background-color: #0d1b2a !important;
+    width: 60% !important;
+    margin: 50px auto !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Cambia el color del borde de los inputs al hacer clic o enfocarlos */
+/* Cambia el color del borde de los inputs al hacer clic o enfocarlos */
+
+/* Ajusta el tamaño y alinea el input de Phone Number con los demás */
+#login-form input#phone,
+form input#phone {
+    width: 100%; /* Ajusta el ancho al mismo tamaño que los demás inputs */
+    margin: 0; /* Elimina el centrado automático */
+    display: block; /* Asegura que el input sea un bloque */
+    padding: 10px; /* Asegura un padding consistente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+#tempaltemo_footer {
+    padding: 5px 0; /* Reduce aún más el padding superior e inferior */
+    background-color: #343a40; /* Fondo del footer */
+    font-size: 0.8rem; /* Reduce el tamaño del texto */
+}
+
+#tempaltemo_footer .row {
+    margin-bottom: 3px; /* Reduce el espacio entre filas */
+}
+
+#tempaltemo_footer ul.footer-link-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#tempaltemo_footer ul.footer-link-list li {
+    margin-bottom: 2px; /* Reduce el espacio entre los elementos de la lista */
+}
+
+#tempaltemo_footer .h2 {
+    font-size: 1rem; /* Reduce aún más el tamaño del texto del título */
+    margin-bottom: 3px; /* Reduce el espacio inferior del título */
+}
+
+#tempaltemo_footer ul.footer-icons li {
+    width: 25px; /* Reduce el tamaño de los íconos */
+    height: 25px;
+    line-height: 25px;
+    margin-right: 2px; /* Reduce el espacio entre los íconos */
+}
+
+#tempaltemo_footer ul.footer-icons li i {
+    font-size: 1rem; /* Reduce el tamaño de los íconos */
+}
+
+#tempaltemo_footer .w-100.my-3 {
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Línea divisoria más delgada */
+    margin: 3px 0; /* Reduce el espacio alrededor de la línea */
+}
+
+#tempaltemo_footer .py-3 {
+    padding: 3px 0; /* Reduce aún más el padding del footer inferior */
+}
+
+
+/* Asegúrate de que los estilos sean consistentes para todos los botones */
+/* Asegura que el tamaño sea igual al de los demás botones */
+/* Asegura que el tamaño del botón de WhatsApp sea igual al de los demás */
+#tempaltemo_footer ul.footer-icons li.whatsapp-icon {
+    width: 3.3em; /* Igual que los demás botones */
+    height: 3.3em; /* Igual que los demás botones */
+    line-height: 3.5em; /* Centra el ícono verticalmente */
+    border: 1px solid #dee8f8; /* Asegura que el contorno sea igual */
+}
+
+/* Ajusta el tamaño del ícono de WhatsApp */
+#tempaltemo_footer ul.footer-icons li.whatsapp-icon i {
+    font-size: 2.4rem; /* Igual que los demás íconos */
+}
+
+/* Cambia el color solo para el botón de WhatsApp al pasar el mouse */
+#tempaltemo_footer ul.footer-icons li.whatsapp-icon:hover {
+    background-color: #28a745; /* Verde para WhatsApp */
+    transition: 0.5s;
+}
+
+#tempaltemo_footer ul.footer-icons li.whatsapp-icon:hover i {
+    color: #fff; /* Ícono blanco al pasar el mouse */
+    transition: 0.5s;
+}
+
+
+/* Efecto hover para el ícono de WhatsApp en el menú superior */
+#templatemo_nav_top a.nav-whatsapp-icon:hover {
+    color: #28a745 !important; /* Verde para WhatsApp */
+    transition: color 0.3s ease-in-out; /* Transición suave */
+}
+
+#templatemo_nav_top a.nav-whatsapp-icon {
+    font-size: 2.5rem !important;   ; /* Aumenta el tamaño del ícono */
+    margin-right: 20px; /* Ajusta el espacio entre los íconos */
+    line-height: 1; /* Centra el ícono verticalmente */
+}
+@media (max-width: 1000px) {
+    #templatemo_nav_top {
+        /* Asegura que los íconos estén alineados horizontalmente */
+        align-items: center; /* Centra los íconos verticalmente */
+        justify-content: center; /* Centra los íconos horizontalmente */
+        height: 50px !important; /* Ajusta la altura del contenedor */
+        padding: 0 !important; /* Elimina cualquier padding adicional */
+        background-color: #0d1b2a; /* Fondo consistente */
+    }
+
+    #templatemo_nav_top a {
+        margin: 0 !important; /* Elimina márgenes adicionales */
+        padding: 0 !important; /* Elimina padding adicional */
+        line-height: normal !important; /* Resetea el line-height */
+        transform: none !important; /* Elimina cualquier desplazamiento vertical */
+        font-size: 2.5rem; /* Mantén el tamaño de los íconos */
+        align-items: center; /* Centra los íconos verticalmente */
+    }
+}
+
+.titlered{
+   position: relative !important;
+    font-size: 1.4rem !important; 
+   padding-bottom: 15px !important; 
+   padding-left: 26px  !important;
+   
+     
+}
+
+.about-link{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#backToTop  {
+    position: fixed; /* Fija el botón en la pantalla */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la parte derecha */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Hace el botón circular */
+    background-color:  #0228a1;  /* Color verde */
+    color: white; /* Color del ícono */
+    font-size: 2.5rem; /* Tamaño del ícono */
+    display: flex; /* Centra el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    z-index: 20000; /* Asegura que esté por encima de otros elementos */
+    border: none; /* Elimina el borde */
+   padding: 0;
+   margin: 0;
+   }
+
+.backToTop i {
+    position: relative; /* Asegura que el ícono pueda ser ajustado */
+    top: -4px; /* Mueve el ícono ligeramente hacia arriba */
+}
+
+
+.backToTop:hover{
+    background-color: #14035c; /* Color verde más oscuro al pasar el mouse */
+}
+.bg-success {
+    padding-top: 20px; /* Reduce el espacio superior */
+    padding-bottom: 20px; /* Reduce el espacio inferior */
+}
+@media (max-width: 1250px ) {
+    #backToTop {
+       display: none !important;
+        /* Ajusta el tamaño del ícono */
+    }
+}
+
+.bg-success{
+    background-color:  #0228a1   !important; /* Fondo azul */
+    color: #fff; /* Opcional: texto blanco para mejor contraste */
+    padding: 40px 0; /* Opcional: espacio arriba y abajo */
+
+}
+
+.service-card:hover,
+.card:hover,
+.feature-box:hover {
+    background-color: #0228a1 !important; /* azul */
+    color: #fff; /* Opcional: texto blanco en hover */
+    transition: background-color 0.3s;
+}
+
+
+
+.services-icon-wap:hover{
+    background-color: #0228a1;
+}
+
+
+.fa-truck,
+ .fa-exchange-alt ,
+ .fa-percent,
+ .fa-user {
+
+    color: #0228a1;
+ }
+
+
+ 
+ .text-success{
+
+    color: #FFFFFF !important; /* Asegura que el color del texto sea blanco */
+ }
+
+  
+
+.templatemo-accordion a[data-categoria] {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.templatemo-accordion a[data-categoria]:hover {
+    background-color: #0228a1;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 2px 10px;
+}
+
+
+/* Fondo azul para el texto del carrusel */
+.bg-carrusel-azul {
+    background: #0228a1;
+    color: #fff !important;
+    border-radius: 18px;
+    padding: 32px 24px;
+    opacity: 0.95;
+}
+.bg-carrusel-azul h1,
+.bg-carrusel-azul h2,
+.bg-carrusel-azul h3,
+.bg-carrusel-azul p,
+.bg-carrusel-azul a {
+    color: #fff !important;
+}
+
+.bg-carrusel-azul {
+    background: #0228a1 !important;
+    color: #fff !important;
+    width: 100%;
+    min-height: 100%;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+/* Flechas del carrusel en blanco */
+/* Flechas del carrusel en blanco */
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #fff !important;
+    font-size: 2rem;
+}
+
+/* Indicadores (puntos/barras) en blanco */
+.carousel-indicators li {
+    background-color: #fff !important;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #7da6ff !important; /* Azul pálido */
+    opacity: 1;
+}
+
+
+/* ...existing code... */
+
+
+  
+/* Cambia el color del título y precio al pasar el mouse por la tarjeta del producto */
+.card:hover .h2.text-dark,
+.card:hover .text-muted {
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+
+.presio-index{
+
+    text-align: center !important; /* Centra el texto */
+}
+
+
+.btn-azul {
+    background-color: #1e40af !important;
+    border-color: #1e40af !important;
+}
+.btn-azul:hover,
+.btn-azul:focus {
+    background-color: #15317e !important; /* Un azul más oscuro para hover */
+    border-color: #15317e !important;
+}
+
+
+
+
+
+
+
+
+/* Hace que Valverde Rep.Dom. se muestre en una nueva línea en pantallas medianas o más grandes */
+@media (min-width: 768px) {
+  .valverde{
+    display: block;
+    margin-left: 25px; /* Ajusta el margen si quieres que quede alineado */
+  }
+}
+/* Para celulares pequeños: Esperanza y Valverde debajo de la dirección y alineados a la izquierda */
+/* Para celulares pequeños: Esperanza y Valverde debajo de la dirección y alineados a la izquierda */
+@media (max-width: 450px) {
+  .footer-direccion .esperanza,
+  .footer-direccion .valverde {
+    display: inline;
+    margin-left: 25px !important;
+    text-align: left;
+  margin-right: 0px !important;
+
+
+
+  }
+
+  .valverde{
+
+margin-left: 20px !important; /* Ajusta el margen si quieres que quede alineado */
+  }
+}
+
+
+
+
+
+@media (max-width: 450px) {
+  
+  .valverde{
+
+    position: relative !important;
+    left: -19px !important; /* Ajusta el margen si quieres que quede alineado */
+
+  }
+}
+
+
+
+
+@media (max-width: 600px) and (min-width: 500px) {
+  .valverde {
+    display: block !important;
+    margin-left: 26px !important;
+ 
+  }
+  .repdom {
+    display: inline !important;
+    
+  }
+}
+
+
+/* Para pantallas de 1024px de ancho: Esperanza y Valverde Rep.Dom. juntos debajo de la dirección */
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .footer-direccion .esperanza,
+  .footer-direccion .valverde {
+    display: inline;
+    margin-left: 27px !important;
+    margin-right: 0 !important;
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    vertical-align: baseline !important;
+  }
+  .footer-direccion .valverde {
+    margin-left: 5px !important; /* Espacio pequeño entre Esperanza y Valverde */
+  }
+}
+
+
+/* Para pantallas de 1024px de ancho: Esperanza y Valverde Rep.Dom. juntos debajo de la dirección */
+/* Para pantallas de 1280px de ancho: Esperanza y Valverde Rep.Dom. juntos debajo de la dirección */
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .footer-direccion .esperanza,
+  .footer-direccion .valverde {
+    display: inline !important;
+    margin-left: 27px !important;
+    margin-right: 0 !important;
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    vertical-align: baseline !important;
+  }
+  .footer-direccion .valverde {
+    margin-left: 5px !important; /* Espacio pequeño entre Esperanza y Valverde */
+  }
+}
+
+.bluehover:hover{
+
+    color:#2857d6 !important; /* Cambia el color del texto al pasar el mouse */
+}
+    .text-in{
+
+        font-size: 1.5rem !important; 
+        text-align: justify;
+        
+    }
+
+
+
+@media (max-width: 600px) {
+  .text-in {
+    font-size: 1.05rem;      /* Un poco más grande para móviles */
+    line-height: 1.7;        /* Más espacio entre líneas */
+    text-align: left;        /* Mejor alineación para lectura */
+    margin-bottom: 1.2em;    /* Espacio extra abajo */
+    padding-left: 2px;
+    padding-right: 2px;
+    word-break: break-word;  /* Evita desbordes en palabras largas */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .text-in {
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
+    text-align: justify !important;
+    margin-bottom: 1em !important;
+    padding-right: 0 !important;
+  }
+}
+
+.sloganindex{
+
+    font-size: 1.5rem !important;
+}
+
+.icon-azul {
+    color: #0e2f8bf5 !important; /* O el azul que prefieras */
+}
+.services-icon-wap:hover .bluehover {
+    color: #fff !important;
+}
+
+/* Títulos azules para la sección de pan fresco diario */
+.titleservice1,
+.titlecervice2 {
+color: #460202 !important;
+
+    font-weight: bold;
+}
+
+/* Párrafos más grandes y legibles */
+.pararafoservicio {
+    font-size: 1.50rem !important; /* Aumenta el tamaño del texto */
+    line-height: 1.7;
+    color: #222;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify; /* Alinea el texto a ambos lados */
+    
+    
+}
+.titleservice1{
+
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size: 3.5rem !important; /* Aumenta el tamaño del texto */
+}
+.ultimop{
+    margin-bottom: 90px;
+}
+.titlecervice2{
+
+  margin-left: 70px;
+
+}
+
+@media (max-width: 600px) {
+  .pararafoservicio {
+    font-size: 1.1rem !important;
+    padding-left: 18px;
+    padding-right: 12px;
+    text-align: left !important;
+
+ word-break: break-word !important; /* Evita desbordes en palabras largas */
+    overflow-wrap: break-word !important; /* Permite que las palabras largas se dividan */
+
+  }
+  .titleservice1,
+  .titlecervice2 {
+    margin-left: 0 !important;
+    margin-top: 30px !important;
+    font-size: 2rem !important;
+    text-align: center !important;
+     
+      /* Permite que las palabras largas se dividan */
+  }
+} 
+
+
+/* Agrega esta clase a las imágenes de "ir a tienda" */
+.ir-a-tienda-img {
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 12px; /* Opcional, para bordes suaves */
+}
+
+.ir-a-tienda-img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    z-index: 2;
+}
+/* Efecto sobresalir para las tarjetas de productos destacados */
+.card-destacado {
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 18px;
+}
+
+.card-destacado:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    z-index: 2;
+}
+
+
+
+
+
+
+.producto-tienda{
+
+transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 18px;
+
+
+}
+
+
+.producto-tienda:hover{
+
+ transform: scale(1.07);
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    z-index: 2;
+
+}
+
+
+/* ...existing code... */
+
+.card.rounded-0,
+.producto-tienda,
+.card-destacado {
+    border-radius: 18px !important;
+    overflow: hidden !important;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom,
+.card-img-overlay,
+.product-overlay {
+    border-radius: 18px !important;
+}
+
+/* ...existing code... */
+
+
+.bg-success {
+    background-color: #FFEB3B !important; /* Fondo amarillo */
+     color: #B22222 !important; /* Texto oscuro para mejor contraste */
+}
+.bg-carrusel-azul {
+    background: #FFEB3B !important;
+    color: #222 !important;
+    border-radius: 18px;
+    padding: 32px 24px;
+    opacity: 0.95;
+}
+.bg-carrusel-azul h1,
+.bg-carrusel-azul h2,
+.bg-carrusel-azul h3,
+.bg-carrusel-azul p,
+.bg-carrusel-azul a {
+    color: #B22222 !important;
+}
+
+
+.bg-success h1,
+.bg-success h2,
+.bg-success h3,
+.bg-success h4,
+.bg-success h5,
+.bg-success h6,
+.bg-success p,
+.bg-success a,
+.bg-success li,
+.bg-success span {
+    color: #B22222 !important;
+    
+}
+
+.carousel-indicators li,
+.carousel-indicators button {
+    background-color: #f7eeee !important; /* Rojo vino */
+    opacity: 1 !important;
+    border: none !important;
+}
+
+.carousel-indicators .active,
+.carousel-indicators button.active {
+    background-color: #8B0000 !important; /* Un rojo vino más claro para el activo, opcional */
+}
+
+.btn-azul {
+    background-color: #460202 !important;
+    border-color: #460202 !important;
+}
+.btn-azul:hover,
+.btn-azul:focus {
+    background-color: #8B0000 !important; /* Un rojo vino más claro para hover */
+    border-color: #8B0000 !important;
+}
+
+.card-destacado:hover,
+.producto-tienda:hover {
+    transform: scale(1.07);
+background-color: #460202 !important; /* Sombra rojo vino */
+    z-index: 2;
+    /* Si quieres un fondo rojo vino al hacer hover, descomenta la siguiente línea: */
+    /* background-color: #460202 !important; */
+}
+
+#backToTop  {
+    background-color: #FFEB3B !important; /* Solo amarillo */
+    color: #460202 !important; /* Ícono rojo vino */
+}
+#backToTop:hover {
+    background-color: #ffe066 !important; /* Amarillo más claro al hacer hover */
+    color: #460202 !important; /* Ícono rojo vino al hacer hover */
+}
+
+#tempaltemo_footer a:hover,
+#tempaltemo_footer a:focus {
+    color:  #FFEB3B  !important;
+    transition: color 0.3s;
+}
+
+.titleindex{
+
+    font-weight: bold !important;
+}
+
+.services-icon-wap {
+    background-color: #FFEB3B !important; /* Fondo amarillo */
+    color: #B22222 !important;            /* Texto rojo brillante para contraste */
+    border-radius: 18px;                  /* Opcional: bordes redondeados */
+    border: none !important;              /* Opcional: sin borde */
+    transition: background 0.3s;
+}
+
+/* Si quieres que el hover sea un amarillo más claro: */
+.services-icon-wap:hover {
+    background-color: #ffe066 !important;
+    color: #B22222 !important;
+}
+
+.services-icon-wap i {
+    color: #460202 !important;
+}
+
+.services-icon-wap:hover  {
+transform: scale(1.07);
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    z-index: 2;
+
+
+}
+
+.empresa-img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 280px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.18);
+    object-fit: cover;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+@media (max-width: 991px) {
+    .empresa-img {
+        max-width: 90vw;
+        min-width: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .empresa-img {
+        max-width: 90vw;
+    }
+}
+
+.templatemo-accordion a:hover,
+.templatemo-accordion a:focus {
+    background-color: #460202 !important;
+    color: #fff !important;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.titlegategory {
+    background-color: #FFEB3B;
+    color: #460202;
+    border: 2px solid #B22222;
+    border-radius: 12px;
+    padding: 12px 32px;
+    display: inline-block;
+    box-shadow: 0 4px 16px rgba(70,2,2,0.08);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.menu-categorias-tienda {
+    background: #fffbe7;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(70,2,2,0.08);
+    padding: 28px 18px 18px 18px;
+    margin-bottom: 32px;
+    border: 2px solid #FFEB3B;
+}
+
+.bloque-precios {
+    background: #FFEB3B;
+    border: 2px solid #B22222;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(70,2,2,0.10);
+    padding: 45x 35px;
+    margin: 32px auto 40px auto;
+    text-align: center;
+    color: #460202;
+    max-width: 100%;
+}
+.bloque-precios h1 {
+    font-weight: bold;
+    color: #B22222;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.bloque-precios .sloganindex {
+    font-size: 1.2rem;
+    color: #460202;
+    margin-bottom: 0;
+}
+
+@media (max-width: 950px) {
+    .bloque-precios {
+        margin-bottom: 32px !important;
+        margin-top: 18px !important;
+    }
+}
+
+
+
+
+
+.carousel-img {
+    width: 100%  !important; 
+    max-width: 500px !important; /* Ajusta el ancho máximo según tus necesidades */
+    min-width: 280px !important; 
+    object-fit: cover !important;
+    display: block !important;
+    margin-left: auto !important  ;
+    margin-right: auto  !important ;
+
+     height: 350px !important;   
+}
+
+
+
+/* Labels del formulario en amarillo */
+form label,
+.form-label {
+    color: #FFEB3B !important;
+    font-weight: bold;
+}
+
+/* Bordes de los inputs y textarea en amarillo al enfocar */
+.form-control:focus {
+    border-color: #FFEB3B !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 235, 59, 0.25) !important;
+    outline: 2px solid #FFEB3B !important;
+    
+}
+
+
+.btn-success {
+    background-color: #FFEB3B !important;   /* Amarillo */
+    color: #460202 !important;              /* Texto oscuro para contraste */
+    border: none !important;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #FFD600 !important;   /* Amarillo más oscuro */
+    color: #460202 !important;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Trajanus Roma';
+    src: url('../fonts/TrajanusRoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.titulo-playfair {
+    font-family: 'Trajanus Roma', serif !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+
+
+/* 
+.bg-mision-panes {
+    background: url('https://www.tiasaalimentos.com.mx/wp-content/uploads/2023/01/tipos-de-pan-dulce.jpg ') center center/cover #f8f5f2 no-repeat;
+ 
+ 
+ min-height: 400px;
+    position: relative;
+}
+
+.bg-mision-panes::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(34, 34, 34, 0.651); 
+    z-index: 1;
+    pointer-events: none;
+}
+  .bg-mision-panes   > * {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-mision-panes h1,
+.bg-mision-panes p,
+.bg-mision-panes .titleindex,
+.bg-mision-panes .text-in {
+     color:  #FFEB3B !important;
+     }
+
+
+
+
+
+
+
+
+
+.bg-vision-biscocho {
+    background: url(' https://www.ecured.cu/images/thumb/8/83/Pan_de_Pascua.jpg/1200px-Pan_de_Pascua.jpg ') center center/cover no-repeat !important;
+    min-height: 400px;
+    position: relative;
+}
+
+
+
+
+
+.bg-vision-biscocho::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(34, 34, 34, 0.651); 
+    z-index: 1;
+    pointer-events: none;
+}
+.bg-vision-biscocho > * {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-vision-biscocho h1,
+.bg-vision-biscocho p,
+.bg-vision-biscocho .titleindex,
+.bg-vision-biscocho .text-in {
+     color:  #FFEB3B !important;
+     }
+
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.4s ;
+    box-shadow: none !important;
+    }
+
+.navbar.scrolled {
+    background-color: #460202 !important;
+    box-shadow: 0 2px 8px rgba(70,2,2,0.12);
+    transition: background-color  0.4s;
+}
+
+*/
