@@ -1410,7 +1410,7 @@ display: block !important;
 
 @media (max-width: 600px) {
   .titulo-responsive {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
     text-align: center !important;
     margin-bottom: 0.7em !important;
     margin-top: 0.7em !important;
