@@ -1333,7 +1333,7 @@ form label,
 
 @media (max-width: 600px) {
   .titulo-navbar {
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
     text-align: center !important;
     line-height: 1.2;
   }
