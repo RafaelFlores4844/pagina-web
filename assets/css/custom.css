@@ -1300,6 +1300,40 @@ form label,
 
 
 
+@media (max-width: 600px) {
+  .titulo-navbar {
+    font-size: 1.7rem !important;
+    text-align: center !important;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-item .col-md-8,
+  .carousel-item .col-lg-6,
+  .carousel-item .mx-auto {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    float: none !important;
+    padding: 0 !important;
+  }
+  .carousel-img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    text-align: center !important;
+    max-width: 90vw !important;
+    height: auto !important;
+  }
+}
+
+
+
+/*
+
 
 .bg-mision-panes {
     background: url('https://www.tiasaalimentos.com.mx/wp-content/uploads/2023/01/tipos-de-pan-dulce.jpg ') center center/cover #f8f5f2 no-repeat;
@@ -1340,7 +1374,12 @@ form label,
 }
 
 
-
+.bg-mision-panes.bg-carrusel-azul h1,
+.bg-mision-panes.bg-carrusel-azul p,
+.bg-mision-panes.bg-carrusel-azul .titleindex,
+.bg-mision-panes.bg-carrusel-azul .text-in {
+    color: #FFEB3B !important;
+}
 
 
 
