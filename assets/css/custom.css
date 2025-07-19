@@ -1335,6 +1335,65 @@ display: block !important;
 }
 
 
+@media (max-width: 600px) {
+  .carousel-img {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .carousel-img {
+    width: 98vw !important;
+    max-width: 98vw !important;
+    min-width: 280px !important;
+    height: 260px !important;      /* Ajusta este valor si quieres más alto o más bajo */
+    object-fit: cover !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-item h1.titleindex {
+    font-size: 2.6rem !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.7em !important;  
+    margin-top: 1.2em !important;
+
+
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-item.bg-mision-panes h1.titleindex,
+  .carousel-item.bg-vision-biscocho h1.titleindex {
+    font-size: 2rem !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.7em !important;
+    margin-top: 1.2em !important; /* Solo Misión y Visión */
+  }
+
+  .carousel-item:not(.bg-mision-panes):not(.bg-vision-biscocho) h1.titleindex {
+    font-size: 2rem !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.7em !important;
+    margin-top: 0 !important; /* Historia sin separación arriba */
+  }
+}
+
+
+
+
 
 /*
 
