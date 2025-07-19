@@ -1392,6 +1392,34 @@ display: block !important;
 }
 
 
+@media (max-width: 600px) {
+  .carousel-item.bg-mision-panes .text-in,
+  .carousel-item.bg-vision-biscocho .text-in {
+    font-size: 1.05em !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+    margin-bottom: 1em !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+     /* Alinea el texto a ambos lados */
+  }
+}
+
+
+@media (max-width: 600px) {
+  .titulo-responsive {
+    font-size: 2rem !important;
+    text-align: center !important;
+    margin-bottom: 0.7em !important;
+    margin-top: 0.7em !important;
+  }
+}
+
+
+
+
 
 
 
