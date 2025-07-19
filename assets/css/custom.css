@@ -1320,13 +1320,17 @@ form label,
     padding: 0 !important;
   }
   .carousel-img {
-    display: block !important;
+    
+display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
     float: none !important;
     text-align: center !important;
-    max-width: 90vw !important;
+    width: 100% !important;
+    max-width: 98vw !important;
     height: auto !important;
+
+
   }
 }
 
