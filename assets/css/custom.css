@@ -1470,7 +1470,7 @@ a.contact-link {
 
 @media (max-width: 600px) {
   a.contact-link{
-
+color: #222 !important;    
 font-size: 1.1rem !important;
 
   }
@@ -1478,7 +1478,7 @@ font-size: 1.1rem !important;
 
 @media (max-width: 800px) {
   a.contact-link{
-
+color: #222 !important;    
 text-align: start !important; 
 
   }
