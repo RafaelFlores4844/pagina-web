@@ -1483,6 +1483,26 @@ text-align: start !important;
 
   }
 }
+@media (max-width: 600px) {
+  .h3privacidad{
+ 
+font-size: 1.5rem !important;
+
+  }
+}
+
+@media (max-width: 800px) {
+  a.contact-link{
+color: #222 !important;    
+text-align: start !important; 
+
+  }
+}
+
+
+
+
+
 
 /*
 
