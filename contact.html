@@ -115,7 +115,7 @@
         </div>
     </div>
 
-  <!--
+  
 
 
     <div id="mapid" style="width: 100%; height: 450px;"></div>
@@ -174,72 +174,9 @@
     </div>
     
 
--->
-
-
-<!-- Start Contact & Map en columnas -->
-<div class="container py-5">
-    <div class="row py-5 justify-content-center align-items-center contact-row">
-        <!-- Columna del Mapa -->
-        <div class="col-md-6 mb-4 mb-md-0 contact-col">
-            <div id="mapid" class="contact-box"></div>
-        </div>
-        <!-- Columna del Formulario -->
-        <div class="col-md-6 contact-col">
-            <div class="contact-box">
-                <form method="post" role="form" id="login-form">
-                    <div class="row">
-                        <div class="form-group col-md-6 mb-3">
-                            <label for="inputname">Nombre</label>
-                            <input type="text" class="form-control mt-1" id="inputname" name="name" required placeholder="Name">
-                        </div>
-                        <div class="form-group col-md-6 mb-3">
-                            <label for="inputemail">Email</label>
-                            <input type="email" class="form-control mt-1" id="inputemail" name="email" required placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Número de telefono</label>
-                        <input type="tel" class="form-control mt-1" id="phone" name="phone" placeholder="Phone Number">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputmessage">Mensaje</label>
-                        <textarea class="form-control mt-1" id="inputmessage" name="message" placeholder="Escribe tu mensaje aqui" rows="8"></textarea>
-                    </div>
-                    <div class="row">
-                        <div class="col text-end mt-2">
-                            <button type="submit" class="btn btn-success btn-lg px-3">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
-
-
-<!-- Script del mapa -->
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-<script>
-    var mymap = L.map('mapid').setView([-23.013104, -43.394365], 13);
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        maxZoom: 18,
-        attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1
-    }).addTo(mymap);
-    L.marker([-23.013104, -43.394365]).addTo(mymap)
-        .bindPopup("<b>Ubicación</b>").openPopup();
-    mymap.scrollWheelZoom.disable();
-    mymap.touchZoom.disable();
-</script>
-<!-- End Contact & Map -->
 
 
 
@@ -300,7 +237,7 @@
 
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none  bluehover " href="tel:010-020-0340">010-020-0340</a>
+                            <a class="text-decoration-none  bluehover " href="tel:010-020-0340">809-757-6158</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>

@@ -1576,25 +1576,23 @@ width: 98vw !important;
     margin-left: auto !important;
     margin-right: auto !important;
     /* NO uses object-fit aquí */
-}
-
+  }
+    
 @media (max-width: 600px) {
   .historia-img {
     width: auto !important;
-    max-width: 98vw !important;
+    max-width: 90vw !important;
     min-width: 0 !important;
     height: auto !important;
-    min-height: 180px !important; /* Puedes ajustar este valor */
+    min-height: 100px !important; /* Puedes ajustar este valor */
     margin-left: auto !important;
     margin-right: auto !important;
+    /* Asegura que la imagen se ajuste sin recortar */
   }
 }
-/* ...existing code... */
 
 
 
-
-/* ...existing code... */
 
 
 /*
