@@ -213,3 +213,4 @@ $(document).ready(function() {
 });
 
 
+// Puedes poner esto en tu archivo JS principal
