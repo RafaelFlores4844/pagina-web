@@ -643,35 +643,11 @@ form input#phone {
     }
 }
 
-.bg-success{
-    background-color:  #0228a1   !important; /* Fondo azul */
-    color: #fff; /* Opcional: texto blanco para mejor contraste */
-    padding: 40px 0; /* Opcional: espacio arriba y abajo */
-
-}
-
-.service-card:hover,
-.card:hover,
-.feature-box:hover {
-    background-color: #0228a1 !important; /* azul */
-    color: #fff; /* Opcional: texto blanco en hover */
-    transition: background-color 0.3s;
-}
 
 
 
-.services-icon-wap:hover{
-    background-color: #0228a1;
-}
 
 
-.fa-truck,
- .fa-exchange-alt ,
- .fa-percent,
- .fa-user {
-
-    color: #0228a1;
- }
 
 
  
@@ -689,57 +665,13 @@ form input#phone {
     transition: background 0.2s, color 0.2s;
 }
 
-.templatemo-accordion a[data-categoria]:hover {
-    background-color: #0228a1;
-    color: #fff !important;
-    border-radius: 6px;
-    padding: 2px 10px;
-}
 
 
 /* Fondo azul para el texto del carrusel */
-.bg-carrusel-azul {
-    background: #0228a1;
-    color: #fff !important;
-    border-radius: 18px;
-    padding: 32px 24px;
-    opacity: 0.95;
-}
-.bg-carrusel-azul h1,
-.bg-carrusel-azul h2,
-.bg-carrusel-azul h3,
-.bg-carrusel-azul p,
-.bg-carrusel-azul a {
-    color: #fff !important;
-}
 
-.bg-carrusel-azul {
-    background: #0228a1 !important;
-    color: #fff !important;
-    width: 100%;
-    min-height: 100%;
-    border: none !important;
-    border-radius: 0 !important;
-}
-
-/* Flechas del carrusel en blanco */
-/* Flechas del carrusel en blanco */
-.carousel-control-prev i,
-.carousel-control-next i {
-    color: #fff !important;
-    font-size: 2rem;
-}
 
 /* Indicadores (puntos/barras) en blanco */
-.carousel-indicators li {
-    background-color: #fff !important;
-    opacity: 1;
-}
 
-.carousel-indicators .active {
-    background-color: #7da6ff !important; /* Azul pálido */
-    opacity: 1;
-}
 
 
 /* ...existing code... */
@@ -759,16 +691,6 @@ form input#phone {
     text-align: center !important; /* Centra el texto */
 }
 
-
-.btn-azul {
-    background-color: #1e40af !important;
-    border-color: #1e40af !important;
-}
-.btn-azul:hover,
-.btn-azul:focus {
-    background-color: #15317e !important; /* Un azul más oscuro para hover */
-    border-color: #15317e !important;
-}
 
 
 
@@ -870,16 +792,7 @@ margin-left: 20px !important; /* Ajusta el margen si quieres que quede alineado 
   }
 }
 
-.bluehover:hover{
 
-    color:#2857d6 !important; /* Cambia el color del texto al pasar el mouse */
-}
-    .text-in{
-
-        font-size: 1.5rem !important; 
-        text-align: justify;
-        
-    }
 
 
 
@@ -910,9 +823,7 @@ margin-left: 20px !important; /* Ajusta el margen si quieres que quede alineado 
     font-size: 1.5rem !important;
 }
 
-.icon-azul {
-    color: #0e2f8bf5 !important; /* O el azul que prefieras */
-}
+
 .services-icon-wap:hover .bluehover {
     color: #fff !important;
 }
@@ -1040,12 +951,12 @@ transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bez
     border-radius: 18px !important;
 }
 
-/* ...existing code... */
+/*
 
 
 .bg-success {
-    background-color: #FFEB3B !important; /* Fondo amarillo */
-     color: #B22222 !important; /* Texto oscuro para mejor contraste */
+    background-color: #FFEB3B !important; 
+     color: #B22222 !important; 
 }
 .bg-carrusel-azul {
     background: #FFEB3B !important;
@@ -1076,6 +987,7 @@ transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bez
     color: #B22222 !important;
     
 }
+*/
 
 .carousel-indicators li,
 .carousel-indicators button {
@@ -1083,10 +995,10 @@ transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bez
     opacity: 1 !important;
     border: none !important;
 }
-
+/*
 .carousel-indicators .active,
 .carousel-indicators button.active {
-    background-color: #8B0000 !important; /* Un rojo vino más claro para el activo, opcional */
+    background-color: #8B0000 !important; 
 }
 
 .btn-azul {
@@ -1095,48 +1007,48 @@ transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bez
 }
 .btn-azul:hover,
 .btn-azul:focus {
-    background-color: #8B0000 !important; /* Un rojo vino más claro para hover */
+    background-color: #8B0000 !important; 
     border-color: #8B0000 !important;
 }
 
 .card-destacado:hover,
 .producto-tienda:hover {
     transform: scale(1.07);
-background-color: #460202 !important; /* Sombra rojo vino */
+background-color: #460202 !important; 
     z-index: 2;
-    /* Si quieres un fondo rojo vino al hacer hover, descomenta la siguiente línea: */
-    /* background-color: #460202 !important; */
+    
+     background-color: #460202 !important; 
 }
 
+*/
 #backToTop  {
-    background-color: #FFEB3B !important; /* Solo amarillo */
-    color: #460202 !important; /* Ícono rojo vino */
+    background-color: #2c038a !important; /* Solo amarillo */
+    color: #ffffff !important; /* Ícono rojo vino */
 }
 #backToTop:hover {
-    background-color: #ffe066 !important; /* Amarillo más claro al hacer hover */
-    color: #460202 !important; /* Ícono rojo vino al hacer hover */
+    background-color: #031253 !important; /* Amarillo más claro al hacer hover */
+    color: #e2d4d4 !important; /* Ícono rojo vino al hacer hover */
 }
-
+/*
 #tempaltemo_footer a:hover,
 #tempaltemo_footer a:focus {
     color:  #FFEB3B  !important;
+   
     transition: color 0.3s;
 }
+*/
 
 .titleindex{
 
     font-weight: bold !important;
 }
-
+/*
 .services-icon-wap {
-    background-color: #FFEB3B !important; /* Fondo amarillo */
-    color: #B22222 !important;            /* Texto rojo brillante para contraste */
-    border-radius: 18px;                  /* Opcional: bordes redondeados */
-    border: none !important;              /* Opcional: sin borde */
+    background-color: #FFEB3B !important; 
     transition: background 0.3s;
 }
 
-/* Si quieres que el hover sea un amarillo más claro: */
+
 .services-icon-wap:hover {
     background-color: #ffe066 !important;
     color: #B22222 !important;
@@ -1145,7 +1057,7 @@ background-color: #460202 !important; /* Sombra rojo vino */
 .services-icon-wap i {
     color: #460202 !important;
 }
-
+/*/
 .services-icon-wap:hover  {
 transform: scale(1.07);
     box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
@@ -1179,7 +1091,7 @@ transform: scale(1.07);
         max-width: 90vw;
     }
 }
-
+/*
 .templatemo-accordion a:hover,
 .templatemo-accordion a:focus {
     background-color: #460202 !important;
@@ -1231,13 +1143,15 @@ transform: scale(1.07);
     color: #460202;
     margin-bottom: 0;
 }
-
+*/
 @media (max-width: 950px) {
     .bloque-precios {
         margin-bottom: 32px !important;
         margin-top: 18px !important;
     }
 }
+
+
 
 
 .carousel-img {
@@ -1253,15 +1167,14 @@ transform: scale(1.07);
 }
 
 
+/*
 
-/* Labels del formulario en amarillo */
 form label,
 .form-label {
     color: #FFEB3B !important;
     font-weight: bold;
 }
 
-/* Bordes de los inputs y textarea en amarillo al enfocar */
 .form-control:focus {
     border-color: #FFEB3B !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 235, 59, 0.25) !important;
@@ -1269,19 +1182,20 @@ form label,
     
 }
 
-
+*/
+/*
 .btn-success {
-    background-color: #FFEB3B !important;   /* Amarillo */
-    color: #460202 !important;              /* Texto oscuro para contraste */
+    background-color: #FFEB3B !important;  
+    color: #460202 !important;              
     border: none !important;
 }
 
 .btn-success:hover,
 .btn-success:focus {
-    background-color: #FFD600 !important;   /* Amarillo más oscuro */
+    background-color: #FFD600 !important;   
     color: #460202 !important;
 }
-
+*/
 
 
 
@@ -1591,12 +1505,292 @@ width: 98vw !important;
   }
 }
 
+/* Imágenes de categorías con tamaño y borde uniforme */
+.categoria-img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #eaeaea;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlepr{
+
+    font-size: 1.8rem !important;
+}
+
+
+/* Tamaño base más grande para los párrafos de Historia, Misión y Visión */
+.text-in {
+    font-size: 1.5rem !important; /* Ajusta el valor a tu gusto */
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 1.2em;
+    color: #222 !important;
+}
+
+/* Para móviles, también más grande */
+@media (max-width: 600px) {
+  .text-in {
+    font-size: 1.15rem !important;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 1.2em;
+    color: #222 !important;
+  }
+}
+
+
+.bg-carrusel-azul {
+    margin-top: -15px !important; /* Sube el bloque amarillo */
+    padding-top: 16px !important;
+   }
+.bg-carrusel-azul h1 {
+    margin-top: 0 !important; /* Elimina espacio extra arriba del título */
+}
 
 
 
 
+
+.logo-img {
+    width: 124px;
+    height: 124px;
+    object-fit: contain;
+    border-radius: 40% !important; /* Bordes redondeados */
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+
+
+
+/* cambios azul y blanco */
+.bg-carrusel-azul {
+ background: #0633c7f1 !important; 
+
+   /* Azul */
+    color: #fff !important;         /* Texto blanco */
+    border-radius: 18px;
+    padding: 32px 24px;
+    opacity: 0.95;
+}
+.bg-carrusel-azul h1,
+.bg-carrusel-azul h2,
+.bg-carrusel-azul h3,
+.bg-carrusel-azul p,
+.bg-carrusel-azul a {
+    color: #fff !important;         /* Texto blanco dentro del fondo azul */
+}
+    
+ 
+.bg-carrusel-azul h1,
+.bg-carrusel-azul h2,
+.bg-carrusel-azul h3,
+.bg-carrusel-azul p,
+.bg-carrusel-azul a {
+    color: #fff !important;         /* Texto blanco dentro del fondo azul */
+}
+
+.navbar {
+    background-color:  #072792 !important; /* Azul */
+    transition: background-color 0.4s;
+    box-shadow: none !important;
+}
+
+.btn-azul {
+    background-color: #0228a1 !important; /* Azul principal */
+    border-color: #0228a1 !important;
+    color: #fff !important;
+    transition: background 0.3s, border 0.3s;
+}
+
+.btn-azul:hover,
+.btn-azul:focus {
+    background-color: #05207c !important; /* Azul más oscuro al hacer hover */
+    border-color: #05207c !important;
+    color: #fff !important;
+}
+
+.card-destacado:hover,
+.producto-tienda:hover {
+    transform: scale(1.07);
+    background-color: #0228a1 !important; /* Azul */
+    color: #fff !important;
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    z-index: 2;
+}
+
+/* Cambia el color del título y precio al pasar el mouse por la tarjeta */
+.card:hover .h2.text-dark,
+.card:hover .text-muted {
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+/* Hover azul para enlaces importantes en el footer */
+#tempaltemo_footer a[href^="tel"]:hover,
+#tempaltemo_footer a[href^="mailto"]:hover,
+#tempaltemo_footer a.contact-link:hover {
+    color: #133ece !important;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.politica-privacidad:hover,
+.bluehover:hover,
+.bluehover:focus {
+    color: #153ec4 !important;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+.bg-success {
+
+ background: #0633c7f1 !important; 
+
+     
+  
+    color: #fff !important;               /* Texto blanco */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg-success h1,
+.bg-success h2,
+.bg-success h3,
+.bg-success h4,
+.bg-success h5,
+.bg-success h6,
+.bg-success p,
+.bg-success a,
+.bg-success li,
+.bg-success span {
+    color: #fff !important; /* Texto blanco en títulos y párrafos */
+}
+
+
+
+.services-icon-wap {
+    background-color: #fff !important; /* Fondo blanco */
+    color: #0228a1 !important;       /* Letras azules */
+    border-radius: 18px; 
+    transition: background 0.3s, color 0.3s;
+}
+
+.services-icon-wap i {
+    color:#0228a1  !important;         /* Íconos azules */
+    transition: color 0.3s;
+}
+
+.services-icon-wap:hover {
+    background-color: #0228a1 !important; /* Fondo azul al pasar el mouse */
+    color: #fff !important;               /* Letras blancas */
+}
+
+.services-icon-wap:hover i {
+    color: #fff !important;               /* Íconos blancos al pasar el mouse */
+}
+
+
+.titleservice1,
+.titlecervice2 {
+
+color: #0228a1 !important;  
+
+}
+
+
+/* Cuadro de productos: fondo azul, borde blanco, letras blancas */
+.bloque-precios {
+    background: #0228a1 !important;   /* Fondo azul */
+    border: 2px solid #fff !important; /* Borde blanco */
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(34,60,80,0.10);
+    padding: 45px 35px;
+    margin: 32px auto 40px auto;
+    text-align: center;
+    color: #fff !important;           /* Letras blancas */
+    max-width: 100%;
+}
+
+.bloque-precios h1,
+.bloque-precios .sloganindex,
+.bloque-precios p {
+    color: #fff !important;           /* Letras blancas */
+}
+
+/* Hover azul más oscuro para tarjetas de productos */
+.card-destacado:hover,
+.producto-tienda:hover,
+.bloque-precios:hover {
+    background-color: #05207c !important; /* Azul más oscuro */
+    color: #fff !important;
+    box-shadow: 0 8px 32px rgba(34, 60, 80, 0.25);
+    border-color: #fff !important;
+    z-index: 2;
+}
+
+
+.titlegategory {
+    color: #fff !important;               /* Texto blanco */
+    background-color:  #0228a1 !important; /* Azul claro */
+    color: #fff !important;               /* Texto blanco */
+    border: 2px solid #dee0eb !important;    /* Borde blanco */
+    border-radius: 12px;
+    padding: 12px 32px;
+    display: inline-block;
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.08); /* Sombra azul suave */
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    transition: background 0.3s, color 0.3s, border 0.3s; border: 2px 
+
+}.menu-categorias-tienda a:hover,
+.menu-categorias-tienda a:focus {
+    background-color: #0228a1 !important; /* Azul */
+    color: #fff !important;               /* Texto blanco */
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+.menu-categorias-tienda {
+    background: #020f8396 !important;
+    border: 2px solid #1976d2 !important; /* Borde azul claro */
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
+    padding: 28px 18px 18px 18px;
+    margin-bottom: 32px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.25rem !important; /* Un poco más grande */
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 600px) {
+  .logo-img {
+    width: 62px !important;
+    height: 62px !important;
+    margin-right: 8px !important;
+  }
+}
+
+.img-panaderia-central {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 540px;
+    width: 96vw;
+    height: auto;
+    margin-bottom: 13px;
+}
 /*
-
 
 .bg-mision-panes {
     background: url('https://www.tiasaalimentos.com.mx/wp-content/uploads/2023/01/tipos-de-pan-dulce.jpg ') center center/cover #f8f5f2 no-repeat;
