@@ -1784,7 +1784,7 @@ color: #0228a1 !important;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 37px;
     max-width: 540px;
     width: 96vw;
     height: auto;
@@ -1838,6 +1838,17 @@ color: #0228a1 !important;
     flex-direction: column !important;
   }
 }
+
+
+@media (max-width: 600px) {
+  .titulo-historia {
+    padding-top: 31px !important;
+  }
+}
+
+
+
+
 
 
 /*
