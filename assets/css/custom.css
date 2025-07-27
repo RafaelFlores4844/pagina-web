@@ -1833,7 +1833,11 @@ color: #0228a1 !important;
 }
 
 
-
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column !important;
+  }
+}
 
 
 /*
