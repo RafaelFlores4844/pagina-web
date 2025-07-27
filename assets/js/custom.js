@@ -234,3 +234,16 @@ $(document).ready(function() {
 });
 
 // ...existing code...
+document.addEventListener('DOMContentLoaded', function() {
+    const imgs = document.querySelectorAll('.ir-a-tienda-img');
+    function mostrarImagenes() {
+        imgs.forEach(img => {
+            const rect = img.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 60) {
+                img.classList.add('visible');
+            }
+        });
+    }
+    window.addEventListener('scroll', mostrarImagenes);
+    mostrarImagenes(); // Ejecuta al cargar
+});
