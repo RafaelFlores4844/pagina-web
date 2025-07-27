@@ -207,9 +207,45 @@ $(document).ready(function() {
 
         // Muestra y mueve al principio las de la categoría seleccionada
         $row.children('.col-md-4.' + categoria).each(function() {
-            $(this).show().prependTo($row);
+          
         });
     });
 });
 
+// Filtrado simple por categoría, sin reordenar
+$(document).ready(function() {
+    $('[data-categoria]').on('click', function(e) {
+        e.preventDefault();
+        var categoria = $(this).data('categoria');
+        var $row = $('#productos-row');
 
+        // Mostrar todas si seleccionas "todos"
+        if (categoria === 'todos') {
+            $row.children('.col-md-4').show();
+            return;
+        }
+
+        // Oculta todas las tarjetas
+        $row.children('.col-md-4').hide();
+
+        // Solo muestra las de la categoría seleccionada (sin cambiar el orden)
+        $row.children('.col-md-4.' + categoria).show();
+    });
+});
+
+// Animación de abajo hacia arriba para imágenes "ir a tienda"
+document.addEventListener('DOMContentLoaded', function() {
+    const imgs = document.querySelectorAll('.ir-a-tienda-img');
+
+    function mostrarImagenes() {
+        imgs.forEach(img => {
+            const rect = img.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 60) {
+                img.classList.add('visible');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', mostrarImagenes);
+    mostrarImagenes(); // Ejecuta al cargar
+});
