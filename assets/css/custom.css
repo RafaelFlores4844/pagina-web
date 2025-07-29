@@ -1842,17 +1842,51 @@ color: #0228a1 !important;
 
 @media (max-width: 600px) {
   .titulo-historia {
-    padding-top: 31px !important;
+    padding-top: 35px !important;
+   
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .container,
+  .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .carousel-item p,
+  .text-in,
+  .pararafoservicio {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
   }
 }
 
 
 
 
+
 /*
-
-
-
 .bg-mision-panes {
     background: url('https://www.tiasaalimentos.com.mx/wp-content/uploads/2023/01/tipos-de-pan-dulce.jpg ') center center/cover #f8f5f2 no-repeat;
  
