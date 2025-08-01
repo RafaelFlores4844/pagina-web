@@ -1928,3 +1928,134 @@ color: #0228a1 !important;
 
 
 
+/* Cambia color de los labels y el botón de enviar en el formulario de contacto */
+#login-form label,
+#login-form .form-label {
+    color: #0228a1 !important; /* Azul */
+    font-weight: 600;
+}
+
+#login-form button[type="submit"] {
+    background-color: #0228a1 !important; /* Azul */
+    border-color: #0228a1 !important;
+    color: #fff !important;
+}
+
+#login-form button[type="submit"]:hover,
+#login-form button[type="submit"]:focus {
+    background-color: #011a6b !important; /* Azul más oscuro al pasar el mouse */
+    border-color: #011a6b !important;
+}
+
+
+/* Igualar tamaño del mapa al formulario de contacto en PC y laptops */
+@media (min-width: 992px) {
+    #mapid {
+        max-width: 900px;   /* Igual que el formulario (col-md-9) */
+        height: 560px !important;
+        margin: 40px auto 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        display: block;
+    }
+}
+
+
+/* ...existing code... */
+
+/* Formulario de contacto más pequeño en desktop/laptop */
+@media (min-width: 992px) {
+    #login-form {
+        width: 910px !important;   /* Más pequeño */
+        max-width: 100% !important;
+        margin: 40px auto !important; /* Centrado horizontal */
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 992px) {
+  .contact-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 40px;
+     /* Altura fija para el bloque */
+  }
+  .contact-col {
+    flex: 1 1 0;
+    min-width: 350px;
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     
+  }
+  #login-form, #mapid {
+    width: 100% !important;
+    margin: 0 !important;
+    float: none !important;
+    display: block !important;
+  }
+}
+@media (max-width: 991px) {
+  .contact-row {
+    display: block;
+  }
+  .contact-col {
+    width: 100%;
+    max-width: 100%;
+  }
+  #mapid {
+    margin-top: 32px;
+    height: 350px !important;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .contact-row {
+    /* Espacio arriba del bloque */
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;                      /* Más espacio entre formulario y mapa */
+    width: 100%;
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 80px !important; /* Espacio entre el bloque y el footer */
+  }
+}
+@media (min-width: 992px) {
+  #login-form label,
+  #login-form .form-label {
+    font-size: 1.2rem !important;
+    padding-left: 6px !important;
+    margin-bottom: 2px !important;
+  }
+  #login-form input,
+  #login-form textarea {
+    font-size: 0.99rem !important;
+    padding: 6px 8px !important;
+    border-radius: 6px !important;
+    height: 32px !important;
+  }
+  #login-form textarea {
+    min-height: 210px !important;
+    height: 67px !important;
+    max-height: 176px !important;
+  }
+  #login-form .mb-3,
+  #login-form .form-group {
+    margin-bottom: 10px !important;
+  }
+  #login-form button[type="submit"] {
+    font-size: 1rem !important;
+    padding: 8px 18px !important;
+  }
+}
