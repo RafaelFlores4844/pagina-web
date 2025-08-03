@@ -2089,3 +2089,20 @@ color: #0228a1 !important;
     margin-bottom: 2rem;
   }
 }
+
+/* Mueve la imagen central de la panadería un poco a la derecha en desktop/tablet */
+@media (max-width: 767.98px) {
+  .img-panaderia-central {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-left: -3.7px !important; /* Ajusta este valor según sea necesario */
+  }
+}
+
+/* Espaciado lateral para párrafos de servicios en móviles */
+@media (max-width: 600px) {
+  .pararafoservicio {
+    padding-left: 18px !important;
+    padding-right: 12px !important;
+  }
+}
