@@ -157,8 +157,8 @@ window.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.product-wap').forEach(function(card) {
         card.style.display = 'none';
     });
-    // Muestra todos al inicio, o puedes mostrar solo una categoría por defecto
-    // document.querySelectorAll('.pan').forEach(function(card) { card.style.display = ''; });
+    
+    document.querySelectorAll('.pan').forEach(function(card) { card.style.display = ''; });
 });
 
 // Evento para los enlaces de categoría
@@ -176,6 +176,8 @@ document.querySelectorAll('[data-categoria]').forEach(function(link) {
         });
     });
 });
+
+
 
 window.addEventListener('DOMContentLoaded', function() {
     // Oculta todos los productos
@@ -212,6 +214,8 @@ $(document).ready(function() {
     });
 });
 
+
+
 // Filtrado simple por categoría, sin reordenar
 $(document).ready(function() {
     $('[data-categoria]').on('click', function(e) {
@@ -247,3 +251,35 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', mostrarImagenes);
     mostrarImagenes(); // Ejecuta al cargar
 });
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  if(window.location.hash) {
+    var el = document.querySelector(window.location.hash);
+    if(el) {
+      setTimeout(function() {
+        var y = el.getBoundingClientRect().top + window.pageYOffset - 150; // Cambiado de 120 a 80
+        window.scrollTo({top: y, behavior: "smooth"});
+      }, 300);
+    }
+  }
+  // Para clicks en los enlaces internos
+  document.querySelectorAll('a[href^="shop.html#"]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var hash = this.hash;
+      var el = document.querySelector(hash);
+      if(el) {
+        e.preventDefault();
+        var y = el.getBoundingClientRect().top + window.pageYOffset - 150; // Cambiado de 120 a 80
+        window.scrollTo({top: y, behavior: "smooth"});
+        history.pushState(null, null, hash);
+      }
+    });
+  });
+});
+
+

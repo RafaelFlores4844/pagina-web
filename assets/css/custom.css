@@ -2059,3 +2059,33 @@ color: #0228a1 !important;
     padding: 8px 18px !important;
   }
 }
+
+.myname{
+
+  color: #be9c05;
+}
+
+.politica-privacidad:hover{
+
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+#pan, #bizcocho, #galleta, #dulce, #jugo, #otrosp {
+  scroll-margin-top: 100px; /* Ajusta según el alto de tu header */
+}
+
+/* Espaciado inferior en móviles para el bloque de contacto */
+@media (max-width: 767.98px) {
+  .contact-row {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Separar el formulario del mapa en móviles */
+@media (max-width: 767.98px) {
+  .contact-col:first-child {
+    margin-bottom: 2rem;
+  }
+}
