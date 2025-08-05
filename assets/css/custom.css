@@ -2106,3 +2106,10 @@ color: #0228a1 !important;
     padding-right: 12px !important;
   }
 }
+
+/* Borde azul sutil para el mapa de Google en la sección de contacto */
+.contact-col iframe {
+  border: 3px solid #007bff;   /* Azul Bootstrap */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
