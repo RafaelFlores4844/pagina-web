@@ -2284,3 +2284,12 @@ white-space: nowrap !important;
      /* Agrega scroll si el contenido es más alto */
   }
 }
+@media (max-width: 600px) {
+  .titulo-productos-destacados,
+  .titulo-servicios {
+    font-size: 1.8rem !important;
+    margin-top: 18px !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
+  }
+}
