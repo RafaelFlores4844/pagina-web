@@ -330,3 +330,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  function mostrarAnimados() {
+    document.querySelectorAll('.anim-aparece').forEach(function(el) {
+      var rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 60) {
+        el.classList.add('visible');
+      }
+    });
+  }
+  window.addEventListener('scroll', mostrarAnimados);
+  mostrarAnimados();
+});

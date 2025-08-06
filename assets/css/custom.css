@@ -2060,10 +2060,6 @@ color: #0228a1 !important;
   }
 }
 
-.myname{
-
-  color: #be9c05;
-}
 
 .politica-privacidad:hover{
 
@@ -2112,4 +2108,179 @@ color: #0228a1 !important;
   border: 3px solid #007bff;   /* Azul Bootstrap */
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.titulo-playfair.titulo-responsive {
+  font-weight: bold !important;
+  color: #000000 !important;
+}
+
+/* Título principal en el navbar */
+.titulo-navbar,
+.logo
+ {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+/* Títulos de las secciones del menú */
+.nav-link
+ {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+
+
+.btn-azul{
+
+font-weight: bold !important;
+  color: #fff !important;
+
+}
+
+.titlepr{
+
+   font-weight: bold !important;
+  color: #000000 !important;
+}
+
+/* Nombres de productos en tarjetas de tienda y destacados */
+.producto-nombre,
+.card-destacado .producto-nombre,
+.producto-tienda .producto-nombre,
+.card .producto-nombre,
+.card .h2,
+.card .h3,
+.card .h4,
+.card .titlepr {
+  font-weight: bold !important;
+  color: #000000 !important;
+}
+.myname {
+  color: #FFD700 !important; /* Dorado brillante */
+  font-weight: bold !important;
+  letter-spacing: 1px;
+}
+.titulo-horario,
+.titulo-privacidad {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+.titulo-responsive2{
+
+font-weight: bold !important;
+  color: #fff !important;
+}
+
+
+
+
+.menu-categorias-tienda a[data-categoria] {
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+
+/* Cuadro de precios más ancho en desktop/tablet */
+@media (min-width: 768px) {
+  .bloque-precios {
+    max-width: 900px !important;
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.card-destacado:hover .producto-nombre,
+.producto-tienda:hover .producto-nombre,
+.card:hover .producto-nombre,
+.card:hover .h2,
+.card:hover .h3,
+.card:hover .h4,
+.card:hover .titlepr {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .titulo-playfair.titulo-responsive {
+    white-space: nowrap !important;
+    text-align: center !important;
+    display: block !important;
+    margin-left: -50px !important;
+  }
+}
+
+/* Animación de aparición para productos destacados */
+.anim-aparece {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.anim-aparece.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo-img {
+  width: 140px !important;         /* Logo más grande */
+  height: 140px !important;
+  background: #fff !important;
+  border-radius:50% !important;   /* Círculo menos redondo, más pequeño */
+  padding: 2px !important;         /* Menos espacio alrededor del logo */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 2px solid #eee !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    width: 62px !important;
+    height: 62px !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    padding: 2px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 2px solid #eee !important;
+    object-fit: contain !important;
+    margin-right: 8px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1336px) {
+  .titulo-playfair.titulo-responsive {
+white-space: nowrap !important;
+    text-align: center !important;
+    display: block !important;
+    margin-left: -140px !important;
+    
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1336px) {
+  .shop-categorias-row {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 32px !important;
+  }
+  .menu-categorias-tienda {
+    flex: 0 0 340px !important;
+    max-width: 340px !important;
+    margin-bottom: 0 !important;
+  }
+  .bloque-precios {
+    flex: 1 1 0 !important;
+    max-width: 900px !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1336px) {
+  .bloque-precios {
+   max-height: 300px !important; /* Ajusta la altura máxima */
+     /* Agrega scroll si el contenido es más alto */
+  }
 }
