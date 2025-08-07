@@ -2102,3 +2102,20 @@ white-space: nowrap !important;
 }
 
 
+
+
+/* Solo afecta el párrafo de "Quiénes somos" en la sección de nosotros */
+@media (max-width: 600px) {
+  .parrafo-nosotros {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+}
