@@ -2119,3 +2119,14 @@ white-space: nowrap !important;
     text-align: left !important;
   }
 }
+
+
+
+@media (max-width: 600px) {
+  .parrafoinfo {
+
+   
+white-space: pre;
+  
+  }
+}
