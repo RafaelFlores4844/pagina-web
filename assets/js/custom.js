@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Scroll al contenedor de productos
             var productosRow = document.getElementById('productos-row');
             if(productosRow) {
-                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 150;
+                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 175;
                 window.scrollTo({top: y, behavior: "smooth"});
                 history.pushState(null, null, '#' + categoria);
             }
