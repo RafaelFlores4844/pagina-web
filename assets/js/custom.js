@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             var productosRow = document.getElementById('productos-row');
             if(productosRow) {
-                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 150;
+                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 170;
                 window.scrollTo({top: y, behavior: "smooth"});
             }
         }, 200);
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Scroll al contenedor de productos
             var productosRow = document.getElementById('productos-row');
             if(productosRow) {
-                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 175;
+                var y = productosRow.getBoundingClientRect().top + window.pageYOffset - 170;
                 window.scrollTo({top: y, behavior: "smooth"});
                 history.pushState(null, null, '#' + categoria);
             }
